@@ -4,6 +4,8 @@
 
 The **colour picker UI** extension offers a colour picker tool for short text fields, returning the hex value.
 
+![Colour Picker UI Extension](./sample.png "Colour Picker")
+
 ## Installation and usage
 
 [Check you have the requirements needed](https://github.com/contentful/ui-extensions-sdk).
