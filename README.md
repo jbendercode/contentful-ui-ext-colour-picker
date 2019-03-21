@@ -7,8 +7,7 @@ The **colour picker UI** extension offers a colour picker tool for short text fi
 ![Colour Picker UI Extension](./sample.png "Colour Picker")
 
 ## Installation and usage
-
-[Check you have the requirements needed](https://github.com/contentful/ui-extensions-sdk).
+[Ensure Contentful CLI is installed[(https://github.com/contentful/contentful-cli).
 
 Install the dependencies needed with `npm install`.
 
@@ -16,7 +15,7 @@ To use first export CMA token, followed by creating the extension.
 
 ```bash
 export CONTENTFUL_MANAGEMENT_ACCESS_TOKEN=<content-management-access-token>
-contentful-extension create --space-id $SPACE_ID
+contentful extension create --space-id $SPACE_ID
 ```
 
 ## Update the extension
@@ -24,7 +23,7 @@ contentful-extension create --space-id $SPACE_ID
 If you want to update the extension without updating the versioning, run:
 
 ```bash
-contentful-extension update --space-id $SPACE_ID --force
+contentful extension update --space-id $SPACE_ID --force
 ```
 
 ## Using the extension in the Contentful web app
