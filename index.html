@@ -71,10 +71,9 @@
       // Load published value from CDA.
       loadPublishedValue(entry.getSys().id)
           .then(function (entries) {
-                console.log(JSON.stringify(entries))
-                publishedValue = entries.items[0].fields[fieldId][fieldLocale];
                 draftTextEl.disabled = false;
                 colourPickerEl.disabled = false;
+                publishedValue = entries.items[0].fields[fieldId][fieldLocale];
                 renderColour();
               }
           )
